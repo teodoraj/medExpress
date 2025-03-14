@@ -1,5 +1,5 @@
 # HeliosX Frontend Take Home Exercise
-For this exercise I decided to use Vite template that provide a minumal setup for React app.
+For this exercise I decided to use Vite template that provides a minumal setup for React app.
 
 
 ## Getting started
@@ -9,7 +9,7 @@ $ npm i # Install the application
 $ npm run dev # Run development
 ```
 
-## to do plan
+## To do plan:
 - create the wrapper page that will include:
   - header - with logo
   - content - the slide with the questions
