@@ -1,0 +1,79 @@
+.AppWrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+}
+
+.Header {
+  align-items: baseline;
+  background-color: var(--secondary-color);
+  display: flex;
+  align-items: center;
+  height: 71px;
+  max-width: 100%;
+  overflow: hidden;
+  padding: 12px 30px;
+  position: static;
+}
+
+.LogoImage {
+  display: inline-block;
+  max-width: 100%;
+}
+
+.ContentWrapper {
+  align-content: center;
+  background-color: #edf0fa;
+  flex: 1;
+  padding: 12px 30px;
+}
+
+.SliderContent {
+  background-color: var(--secondary-color);
+  color: #003f82;
+  margin: 0 auto;
+  max-width: 70%;
+  padding: 12px 30px;
+  text-align: left;
+  &-title{
+    margin-bottom: 0;
+  }
+}
+
+.Footer {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  display: flex;
+  flex-direction: column;
+  padding: 12px 30px;
+  text-align: left;
+  &-content{
+    flex: 1;
+    padding: 10px;
+  }
+  &-list{
+    list-style: none;
+    padding-left: 0;
+    text-align:left ;
+    text-decoration: none;
+    li a {
+      text-decoration: none;
+      color: var(--secondary-color);
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .Footer {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 768px) {
+  .SliderContent {
+    text-align: center;
+    max-width: 100%;
+    padding: 12px;
+  }
+}
