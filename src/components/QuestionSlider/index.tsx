@@ -57,7 +57,7 @@ const QuestionSlider: React.FC = () => {
             <div
               key={index}
               className={classNames(styles.Question, {
-                [styles.Visible]: currentQuestion === index,
+                [styles.Active]: currentQuestion === index,
                 [styles.Inactive]: currentQuestion !== index,
               })}
             >
