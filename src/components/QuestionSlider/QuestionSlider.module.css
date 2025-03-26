@@ -1,5 +1,5 @@
 .QuestionSlider {
-  background-color: #fff;
+  background-color: var(--secondary-color);
 }
 
 .Question {
@@ -17,6 +17,17 @@
 .ButtonsWrapper {
   display: flex;
   gap: 1em;
+}
+
+.ProgressBarWrapper{
+    display: flex;
+    width: 100%;
+    height: 25px;
+    background-color: #edf0fa;
+}
+
+.ProgressBarFill {
+    background-color: var(--primary-color);
 }
 
 @media (max-width: 768px) {
